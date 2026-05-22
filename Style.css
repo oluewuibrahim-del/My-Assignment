@@ -36,7 +36,7 @@ section h2{
     font-style: italic ; color: red;
 }
 .Protein ul li{
-    list-style: circle;
+    list-style: square;
 }
 
 
@@ -48,18 +48,18 @@ section h2{
     font-style: italic ; color: gold;
 }
 .Fat ul li{
-    list-style: circle;
+    list-style: disc;
 }
 
 
 .Vitamins h2 span{
     background-color: green;
 }
-.Vitamin p{
+.Vitamins p{
     font-style: italic ; color: green;
 }
-.Vitamin ul li{
-    list-style: circle;
+.Vitamins ul li{
+    list-style: decimal;
 }
 
 
@@ -70,7 +70,7 @@ section h2{
     font-style: italic ; color: blue;
 }
 .Minerals ul li{
-    list-style: circle;
+    list-style: decimal-leading-zero;
 }
 
 
