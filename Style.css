@@ -1,25 +1,87 @@
-body{font-family: Arial, Helvetica, sans-serif; margin: 20px;}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-main title{font-size: 50px; text-align: center;}
+body{
+     font-family: "Poppins", sans-serif;
+}
 
-main title span{background-color: brown; padding: 5px; text-decoration: underline; border-radius: 1opx;}
+title{
+    font-size: 72px;
+}
 
-h2{font-size: 32px; color: darkblue;}
+h1{
+    font-size: 52px;
+}
 
-p{ color: darkgreen ;font-style: italic; line-height: 1.6;}
+section h2{
+    font-size: 48px;
+}
 
-section{padding: auto; margin: 20px; border-radius: 10px;}
+.Carbohydrate h2 span{
+    background-color: orange;
+}
+.Carbohydrate p{
+    font-style: italic ; color: orange;
+}
+.Carbohydrate ul li{
+    list-style: circle;
+}
 
-Background Colors
 
-Carbohydrate{ background-color: ffe5b4;}
 
-Protein{ background-color: ffd6d6;}
 
-fat{ background-color: fff0b3;}
+.Protein h2 span{
+    background-color: red;
+}
+.Protein p{
+    font-style: italic ; color: red;
+}
+.Protein ul li{
+    list-style: circle;
+}
 
-vitamins{ background-color: d6ffd6;}
 
-minerals{ background-color: d6f0ff;}
 
-water{ background-color: f3d6ff;}
+.Fat h2 span{
+    background-color: gold;
+}
+.Fat p{
+    font-style: italic ; color: gold;
+}
+.Fat ul li{
+    list-style: circle;
+}
+
+
+.Vitamins h2 span{
+    background-color: green;
+}
+.Vitamin p{
+    font-style: italic ; color: green;
+}
+.Vitamin ul li{
+    list-style: circle;
+}
+
+
+.Minerals h2 span{
+    background-color: blue;
+}
+.Minerals p{
+    font-style: italic ; color: blue;
+}
+.Minerals ul li{
+    list-style: circle;
+}
+
+
+
+.Water h2 span{
+    background-color: purple;
+}
+.Water p{
+    font-style: italic ; color: purple;
+}
+.Water ul li{
+    list-style: none;
+}
+
